@@ -13,6 +13,56 @@
 		1E0E5ACF207C4BE600222700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0E5ACE207C4BE600222700 /* Assets.xcassets */; };
 		1E0E5AD2207C4BE600222700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0E5AD0207C4BE600222700 /* LaunchScreen.storyboard */; };
 		1E0E5AD5207C4BE600222700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5AD4207C4BE600222700 /* main.m */; };
+		1E0E5B85207C4C6900222700 /* CCPrintModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5AE3207C4C6800222700 /* CCPrintModel.m */; };
+		1E0E5B86207C4C6900222700 /* CCPrintField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5AE4207C4C6800222700 /* CCPrintField.m */; };
+		1E0E5B92207C4C6900222700 /* CCPrint+QYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B01207C4C6900222700 /* CCPrint+QYAdditions.m */; };
+		1E0E5B93207C4C6900222700 /* CCAttributeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B02207C4C6900222700 /* CCAttributeMaker.m */; };
+		1E0E5B94207C4C6900222700 /* CCPrintAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B04207C4C6900222700 /* CCPrintAttribute.m */; };
+		1E0E5B96207C4C6900222700 /* CCPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B07207C4C6900222700 /* CCPrint.m */; };
+		1E0E5B9A207C4C6900222700 /* MMPrintTaskWayBill80Hor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B11207C4C6900222700 /* MMPrintTaskWayBill80Hor.m */; };
+		1E0E5B9C207C4C6900222700 /* MMPrintTaskNormalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B15207C4C6900222700 /* MMPrintTaskNormalLabel.m */; };
+		1E0E5BA0207C4C6900222700 /* MMPrintTaskWaybill80.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B1F207C4C6900222700 /* MMPrintTaskWaybill80.m */; };
+		1E0E5BA6207C4C6900222700 /* CCPrintTaskTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B29207C4C6900222700 /* CCPrintTaskTest.m */; };
+		1E0E5BA7207C4C6900222700 /* CCPrintTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B2A207C4C6900222700 /* CCPrintTask.m */; };
+		1E0E5BAA207C4C6900222700 /* CMPrintTaskCustomOrder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B37207C4C6900222700 /* CMPrintTaskCustomOrder.mm */; };
+		1E0E5BAB207C4C6900222700 /* CMPrintTaskNormalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B38207C4C6900222700 /* CMPrintTaskNormalLabel.m */; };
+		1E0E5BAD207C4C6900222700 /* CMPrintTaskWayBill80.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B3E207C4C6900222700 /* CMPrintTaskWayBill80.m */; };
+		1E0E5BB2207C4C6900222700 /* CMPrintTaskWayBill58.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B45207C4C6900222700 /* CMPrintTaskWayBill58.m */; };
+		1E0E5BB7207C4C6900222700 /* CMPrintTaskWayBill80Hor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B4C207C4C6900222700 /* CMPrintTaskWayBill80Hor.m */; };
+		1E0E5BB8207C4C6900222700 /* CCPrintSingleTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B4E207C4C6900222700 /* CCPrintSingleTask.m */; };
+		1E0E5BB9207C4C6900222700 /* CCCompositeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B51207C4C6900222700 /* CCCompositeAttribute.m */; };
+		1E0E5BBA207C4C6900222700 /* CCPrintUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B54207C4C6900222700 /* CCPrintUtilities.m */; };
+		1E0E5BBB207C4C6900222700 /* CCPrintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B55207C4C6900222700 /* CCPrintManager.m */; };
+		1E0E5BBC207C4C6900222700 /* CPCL_Instruaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B58207C4C6900222700 /* CPCL_Instruaction.m */; };
+		1E0E5BBD207C4C6900222700 /* ESC_Instruaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B5A207C4C6900222700 /* ESC_Instruaction.m */; };
+		1E0E5BBE207C4C6900222700 /* ESCP_Instruaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B5C207C4C6900222700 /* ESCP_Instruaction.m */; };
+		1E0E5BBF207C4C6900222700 /* TSC_Instruaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B5D207C4C6900222700 /* TSC_Instruaction.m */; };
+		1E0E5BC0207C4C6900222700 /* Base_Instruaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B5F207C4C6900222700 /* Base_Instruaction.m */; };
+		1E0E5BC1207C4C6900222700 /* CCPrinterConnectListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B64207C4C6900222700 /* CCPrinterConnectListCell.m */; };
+		1E0E5BC2207C4C6900222700 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B66207C4C6900222700 /* GCDAsyncUdpSocket.m */; };
+		1E0E5BC3207C4C6900222700 /* CCPrinterWiFiMacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B67207C4C6900222700 /* CCPrinterWiFiMacAddress.m */; };
+		1E0E5BC4207C4C6900222700 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B68207C4C6900222700 /* GCDAsyncSocket.m */; };
+		1E0E5BC5207C4C6900222700 /* CCPrinterWiFiConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B6C207C4C6900222700 /* CCPrinterWiFiConnectManager.m */; };
+		1E0E5BC6207C4C6900222700 /* CCPrinterConnectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B74207C4C6900222700 /* CCPrinterConnectListController.m */; };
+		1E0E5BC7207C4C6900222700 /* CCPrinterConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B75207C4C6900222700 /* CCPrinterConnectManager.m */; };
+		1E0E5BC9207C4C6900222700 /* CCPrinterBluetoothConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B7B207C4C6900222700 /* CCPrinterBluetoothConnectManager.m */; };
+		1E0E5BCB207C4C6900222700 /* CCPrinterBrandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B7E207C4C6900222700 /* CCPrinterBrandManager.m */; };
+		1E0E5BCC207C4C6900222700 /* CCPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B7F207C4C6900222700 /* CCPeripheral.m */; };
+		1E0E5BCE207C4C6900222700 /* CCAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5B83207C4C6900222700 /* CCAttribute.m */; };
+		1E0E5BD8207C517900222700 /* CCPrintBitmapTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BD0207C517900222700 /* CCPrintBitmapTask.m */; };
+		1E0E5BD9207C517900222700 /* libMPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0E5BD1207C517900222700 /* libMPrint.a */; };
+		1E0E5BDA207C517900222700 /* QYThermalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BD2207C517900222700 /* QYThermalSupport.m */; };
+		1E0E5BDB207C517900222700 /* MMQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BD7207C517900222700 /* MMQRCode.m */; };
+		1E0E5BE5207C520300222700 /* NSObject+CCModelCheckType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BDE207C520300222700 /* NSObject+CCModelCheckType.m */; };
+		1E0E5BE6207C520300222700 /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BDF207C520300222700 /* CCModel.m */; };
+		1E0E5BE7207C520300222700 /* CCModel.md in Resources */ = {isa = PBXBuildFile; fileRef = 1E0E5BE1207C520300222700 /* CCModel.md */; };
+		1E0E5BE8207C520300222700 /* CCDataAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5BE3207C520300222700 /* CCDataAnalysis.m */; };
+		1E0E5BF3207CA8F500222700 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0E5BF2207CA8F400222700 /* libiconv.2.4.0.tbd */; };
+		1E0E5C62207CB26D00222700 /* CCprinterNameManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5C4D207CB26D00222700 /* CCprinterNameManagerController.m */; };
+		1E0E5C63207CB26D00222700 /* CCPrintAdvancedSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5C51207CB26D00222700 /* CCPrintAdvancedSettingController.m */; };
+		1E0E5C64207CB26D00222700 /* CCPrinterConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5C55207CB26D00222700 /* CCPrinterConnectController.m */; };
+		1E0E5C6E207CB7F600222700 /* CCPrintCustomPrinterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E5C6C207CB7F500222700 /* CCPrintCustomPrinterController.m */; };
+		E70E5B15CD539693551C59DF /* libPods-CCPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 221C61B5528476FFAAB07327 /* libPods-CCPrint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +76,112 @@
 		1E0E5AD1207C4BE600222700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E0E5AD3207C4BE600222700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0E5AD4207C4BE600222700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E0E5AE0207C4C6800222700 /* CCPrintSingleTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintSingleTask.h; sourceTree = "<group>"; };
+		1E0E5AE2207C4C6800222700 /* CCPrintField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintField.h; sourceTree = "<group>"; };
+		1E0E5AE3207C4C6800222700 /* CCPrintModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintModel.m; sourceTree = "<group>"; };
+		1E0E5AE4207C4C6800222700 /* CCPrintField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintField.m; sourceTree = "<group>"; };
+		1E0E5AE5207C4C6800222700 /* CCPrintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintModel.h; sourceTree = "<group>"; };
+		1E0E5B00207C4C6900222700 /* CCPrintUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintUtilities.h; sourceTree = "<group>"; };
+		1E0E5B01207C4C6900222700 /* CCPrint+QYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCPrint+QYAdditions.m"; sourceTree = "<group>"; };
+		1E0E5B02207C4C6900222700 /* CCAttributeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAttributeMaker.m; sourceTree = "<group>"; };
+		1E0E5B03207C4C6900222700 /* CCCompositeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCompositeAttribute.h; sourceTree = "<group>"; };
+		1E0E5B04207C4C6900222700 /* CCPrintAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintAttribute.m; sourceTree = "<group>"; };
+		1E0E5B07207C4C6900222700 /* CCPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrint.m; sourceTree = "<group>"; };
+		1E0E5B08207C4C6900222700 /* CCPrintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintManager.h; sourceTree = "<group>"; };
+		1E0E5B10207C4C6900222700 /* MMPrintTaskWaybill80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPrintTaskWaybill80.h; sourceTree = "<group>"; };
+		1E0E5B11207C4C6900222700 /* MMPrintTaskWayBill80Hor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPrintTaskWayBill80Hor.m; sourceTree = "<group>"; };
+		1E0E5B15207C4C6900222700 /* MMPrintTaskNormalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPrintTaskNormalLabel.m; sourceTree = "<group>"; };
+		1E0E5B1E207C4C6900222700 /* MMPrintTaskWayBill80Hor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPrintTaskWayBill80Hor.h; sourceTree = "<group>"; };
+		1E0E5B1F207C4C6900222700 /* MMPrintTaskWaybill80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPrintTaskWaybill80.m; sourceTree = "<group>"; };
+		1E0E5B26207C4C6900222700 /* MMPrintTaskNormalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPrintTaskNormalLabel.h; sourceTree = "<group>"; };
+		1E0E5B29207C4C6900222700 /* CCPrintTaskTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintTaskTest.m; sourceTree = "<group>"; };
+		1E0E5B2A207C4C6900222700 /* CCPrintTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintTask.m; sourceTree = "<group>"; };
+		1E0E5B2B207C4C6900222700 /* CCPrintTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintTask.h; sourceTree = "<group>"; };
+		1E0E5B2C207C4C6900222700 /* CCPrintTaskTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintTaskTest.h; sourceTree = "<group>"; };
+		1E0E5B31207C4C6900222700 /* CMPrintTaskWayBill80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPrintTaskWayBill80.h; sourceTree = "<group>"; };
+		1E0E5B33207C4C6900222700 /* CMPrintTaskWayBill58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPrintTaskWayBill58.h; sourceTree = "<group>"; };
+		1E0E5B37207C4C6900222700 /* CMPrintTaskCustomOrder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMPrintTaskCustomOrder.mm; sourceTree = "<group>"; };
+		1E0E5B38207C4C6900222700 /* CMPrintTaskNormalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPrintTaskNormalLabel.m; sourceTree = "<group>"; };
+		1E0E5B39207C4C6900222700 /* CMPrintTaskCustomOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPrintTaskCustomOrder.h; sourceTree = "<group>"; };
+		1E0E5B3B207C4C6900222700 /* CMPrintTaskWayBill80Hor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPrintTaskWayBill80Hor.h; sourceTree = "<group>"; };
+		1E0E5B3E207C4C6900222700 /* CMPrintTaskWayBill80.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPrintTaskWayBill80.m; sourceTree = "<group>"; };
+		1E0E5B45207C4C6900222700 /* CMPrintTaskWayBill58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPrintTaskWayBill58.m; sourceTree = "<group>"; };
+		1E0E5B49207C4C6900222700 /* CMPrintTaskNormalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPrintTaskNormalLabel.h; sourceTree = "<group>"; };
+		1E0E5B4C207C4C6900222700 /* CMPrintTaskWayBill80Hor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPrintTaskWayBill80Hor.m; sourceTree = "<group>"; };
+		1E0E5B4D207C4C6900222700 /* CCAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAttribute.h; sourceTree = "<group>"; };
+		1E0E5B4E207C4C6900222700 /* CCPrintSingleTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintSingleTask.m; sourceTree = "<group>"; };
+		1E0E5B4F207C4C6900222700 /* CCAttribute+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCAttribute+Private.h"; sourceTree = "<group>"; };
+		1E0E5B50207C4C6900222700 /* CCPrintAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintAttribute.h; sourceTree = "<group>"; };
+		1E0E5B51207C4C6900222700 /* CCCompositeAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCompositeAttribute.m; sourceTree = "<group>"; };
+		1E0E5B52207C4C6900222700 /* CCAttributeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAttributeMaker.h; sourceTree = "<group>"; };
+		1E0E5B53207C4C6900222700 /* CCPrint+QYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCPrint+QYAdditions.h"; sourceTree = "<group>"; };
+		1E0E5B54207C4C6900222700 /* CCPrintUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintUtilities.m; sourceTree = "<group>"; };
+		1E0E5B55207C4C6900222700 /* CCPrintManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintManager.m; sourceTree = "<group>"; };
+		1E0E5B56207C4C6900222700 /* CCPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrint.h; sourceTree = "<group>"; };
+		1E0E5B58207C4C6900222700 /* CPCL_Instruaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCL_Instruaction.m; sourceTree = "<group>"; };
+		1E0E5B59207C4C6900222700 /* Base_Instruaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base_Instruaction.h; sourceTree = "<group>"; };
+		1E0E5B5A207C4C6900222700 /* ESC_Instruaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESC_Instruaction.m; sourceTree = "<group>"; };
+		1E0E5B5B207C4C6900222700 /* Base_Instruaction+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Base_Instruaction+Extra.h"; sourceTree = "<group>"; };
+		1E0E5B5C207C4C6900222700 /* ESCP_Instruaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCP_Instruaction.m; sourceTree = "<group>"; };
+		1E0E5B5D207C4C6900222700 /* TSC_Instruaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSC_Instruaction.m; sourceTree = "<group>"; };
+		1E0E5B5E207C4C6900222700 /* ESC_Instruaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESC_Instruaction.h; sourceTree = "<group>"; };
+		1E0E5B5F207C4C6900222700 /* Base_Instruaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base_Instruaction.m; sourceTree = "<group>"; };
+		1E0E5B60207C4C6900222700 /* CPCL_Instruaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCL_Instruaction.h; sourceTree = "<group>"; };
+		1E0E5B61207C4C6900222700 /* ESCP_Instruaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCP_Instruaction.h; sourceTree = "<group>"; };
+		1E0E5B62207C4C6900222700 /* TSC_Instruaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSC_Instruaction.h; sourceTree = "<group>"; };
+		1E0E5B64207C4C6900222700 /* CCPrinterConnectListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterConnectListCell.m; sourceTree = "<group>"; };
+		1E0E5B66207C4C6900222700 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		1E0E5B67207C4C6900222700 /* CCPrinterWiFiMacAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterWiFiMacAddress.m; sourceTree = "<group>"; };
+		1E0E5B68207C4C6900222700 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1E0E5B69207C4C6900222700 /* CCPrinterWiFiConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterWiFiConnectManager.h; sourceTree = "<group>"; };
+		1E0E5B6A207C4C6900222700 /* CCPrinterWiFiMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterWiFiMacAddress.h; sourceTree = "<group>"; };
+		1E0E5B6B207C4C6900222700 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		1E0E5B6C207C4C6900222700 /* CCPrinterWiFiConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterWiFiConnectManager.m; sourceTree = "<group>"; };
+		1E0E5B6E207C4C6900222700 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		1E0E5B6F207C4C6900222700 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		1E0E5B70207C4C6900222700 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		1E0E5B71207C4C6900222700 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1E0E5B72207C4C6900222700 /* CCPrinterBrandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterBrandManager.h; sourceTree = "<group>"; };
+		1E0E5B73207C4C6900222700 /* CCPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPeripheral.h; sourceTree = "<group>"; };
+		1E0E5B74207C4C6900222700 /* CCPrinterConnectListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterConnectListController.m; sourceTree = "<group>"; };
+		1E0E5B75207C4C6900222700 /* CCPrinterConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterConnectManager.m; sourceTree = "<group>"; };
+		1E0E5B76207C4C6900222700 /* CCPrinterConnectListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterConnectListCell.h; sourceTree = "<group>"; };
+		1E0E5B7A207C4C6900222700 /* CCPrinterBluetoothConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterBluetoothConnectManager.h; sourceTree = "<group>"; };
+		1E0E5B7B207C4C6900222700 /* CCPrinterBluetoothConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterBluetoothConnectManager.m; sourceTree = "<group>"; };
+		1E0E5B7E207C4C6900222700 /* CCPrinterBrandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterBrandManager.m; sourceTree = "<group>"; };
+		1E0E5B7F207C4C6900222700 /* CCPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPeripheral.m; sourceTree = "<group>"; };
+		1E0E5B80207C4C6900222700 /* CCPrinterConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterConnectManager.h; sourceTree = "<group>"; };
+		1E0E5B82207C4C6900222700 /* CCPrinterConnectListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterConnectListController.h; sourceTree = "<group>"; };
+		1E0E5B83207C4C6900222700 /* CCAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAttribute.m; sourceTree = "<group>"; };
+		1E0E5B84207C4C6900222700 /* CCPrintDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintDefine.h; sourceTree = "<group>"; };
+		1E0E5BD0207C517900222700 /* CCPrintBitmapTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintBitmapTask.m; sourceTree = "<group>"; };
+		1E0E5BD1207C517900222700 /* libMPrint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMPrint.a; sourceTree = "<group>"; };
+		1E0E5BD2207C517900222700 /* QYThermalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYThermalSupport.m; sourceTree = "<group>"; };
+		1E0E5BD3207C517900222700 /* MMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMQRCode.h; sourceTree = "<group>"; };
+		1E0E5BD4207C517900222700 /* CCPrintBitmapTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintBitmapTask.h; sourceTree = "<group>"; };
+		1E0E5BD5207C517900222700 /* QYThermalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYThermalSupport.h; sourceTree = "<group>"; };
+		1E0E5BD6207C517900222700 /* process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = process.h; sourceTree = "<group>"; };
+		1E0E5BD7207C517900222700 /* MMQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMQRCode.m; sourceTree = "<group>"; };
+		1E0E5BDD207C520300222700 /* CCModelDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModelDefine.h; sourceTree = "<group>"; };
+		1E0E5BDE207C520300222700 /* NSObject+CCModelCheckType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCModelCheckType.m"; sourceTree = "<group>"; };
+		1E0E5BDF207C520300222700 /* CCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
+		1E0E5BE0207C520300222700 /* CCDataAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDataAnalysis.h; sourceTree = "<group>"; };
+		1E0E5BE1207C520300222700 /* CCModel.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CCModel.md; sourceTree = "<group>"; };
+		1E0E5BE2207C520300222700 /* NSObject+CCModelCheckType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCModelCheckType.h"; sourceTree = "<group>"; };
+		1E0E5BE3207C520300222700 /* CCDataAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDataAnalysis.m; sourceTree = "<group>"; };
+		1E0E5BE4207C520300222700 /* CCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
+		1E0E5BF2207CA8F400222700 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		1E0E5C4D207CB26D00222700 /* CCprinterNameManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCprinterNameManagerController.m; sourceTree = "<group>"; };
+		1E0E5C4F207CB26D00222700 /* CCPrinterConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrinterConnectController.h; sourceTree = "<group>"; };
+		1E0E5C51207CB26D00222700 /* CCPrintAdvancedSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintAdvancedSettingController.m; sourceTree = "<group>"; };
+		1E0E5C54207CB26D00222700 /* CCprinterNameManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCprinterNameManagerController.h; sourceTree = "<group>"; };
+		1E0E5C55207CB26D00222700 /* CCPrinterConnectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrinterConnectController.m; sourceTree = "<group>"; };
+		1E0E5C57207CB26D00222700 /* CCPrintAdvancedSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintAdvancedSettingController.h; sourceTree = "<group>"; };
+		1E0E5C6C207CB7F500222700 /* CCPrintCustomPrinterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrintCustomPrinterController.m; sourceTree = "<group>"; };
+		1E0E5C6D207CB7F600222700 /* CCPrintCustomPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrintCustomPrinterController.h; sourceTree = "<group>"; };
+		221C61B5528476FFAAB07327 /* libPods-CCPrint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCPrint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F95BF63BC8B7211C8418F6A /* Pods-CCPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPrint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCPrint/Pods-CCPrint.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8956CBBFAFE8F278FB2217 /* Pods-CCPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPrint.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCPrint/Pods-CCPrint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +189,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0E5BF3207CA8F500222700 /* libiconv.2.4.0.tbd in Frameworks */,
+				1E0E5BD9207C517900222700 /* libMPrint.a in Frameworks */,
+				E70E5B15CD539693551C59DF /* libPods-CCPrint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +203,8 @@
 			children = (
 				1E0E5AC4207C4BE400222700 /* CCPrint */,
 				1E0E5AC3207C4BE400222700 /* Products */,
+				8DAC63E5589E6F034034351E /* Pods */,
+				7F396F8C3EE70C14900E6E52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +219,9 @@
 		1E0E5AC4207C4BE400222700 /* CCPrint */ = {
 			isa = PBXGroup;
 			children = (
+				1E0E5BDC207C520300222700 /* CCModel */,
+				1E0E5BCF207C517900222700 /* CCPrint_C++ */,
+				1E0E5ADF207C4C6800222700 /* CCPrint */,
 				1E0E5AC5207C4BE400222700 /* AppDelegate.h */,
 				1E0E5AC6207C4BE400222700 /* AppDelegate.m */,
 				1E0E5AC8207C4BE400222700 /* ViewController.h */,
@@ -71,6 +235,235 @@
 			path = CCPrint;
 			sourceTree = "<group>";
 		};
+		1E0E5ADF207C4C6800222700 /* CCPrint */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5C44207CB26D00222700 /* CCPrinterSettings */,
+				1E0E5B63207C4C6900222700 /* CCPrinterConnect */,
+				1E0E5AE1207C4C6800222700 /* PrintField */,
+				1E0E5B09207C4C6900222700 /* PrintTask */,
+				1E0E5B57207C4C6900222700 /* Instruactions */,
+				1E0E5B84207C4C6900222700 /* CCPrintDefine.h */,
+				1E0E5B4F207C4C6900222700 /* CCAttribute+Private.h */,
+				1E0E5B4D207C4C6900222700 /* CCAttribute.h */,
+				1E0E5B83207C4C6900222700 /* CCAttribute.m */,
+				1E0E5B50207C4C6900222700 /* CCPrintAttribute.h */,
+				1E0E5B04207C4C6900222700 /* CCPrintAttribute.m */,
+				1E0E5B52207C4C6900222700 /* CCAttributeMaker.h */,
+				1E0E5B02207C4C6900222700 /* CCAttributeMaker.m */,
+				1E0E5B03207C4C6900222700 /* CCCompositeAttribute.h */,
+				1E0E5B51207C4C6900222700 /* CCCompositeAttribute.m */,
+				1E0E5B08207C4C6900222700 /* CCPrintManager.h */,
+				1E0E5B55207C4C6900222700 /* CCPrintManager.m */,
+				1E0E5B56207C4C6900222700 /* CCPrint.h */,
+				1E0E5B07207C4C6900222700 /* CCPrint.m */,
+				1E0E5B53207C4C6900222700 /* CCPrint+QYAdditions.h */,
+				1E0E5B01207C4C6900222700 /* CCPrint+QYAdditions.m */,
+				1E0E5AE0207C4C6800222700 /* CCPrintSingleTask.h */,
+				1E0E5B4E207C4C6900222700 /* CCPrintSingleTask.m */,
+				1E0E5B00207C4C6900222700 /* CCPrintUtilities.h */,
+				1E0E5B54207C4C6900222700 /* CCPrintUtilities.m */,
+			);
+			path = CCPrint;
+			sourceTree = "<group>";
+		};
+		1E0E5AE1207C4C6800222700 /* PrintField */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5AE2207C4C6800222700 /* CCPrintField.h */,
+				1E0E5AE4207C4C6800222700 /* CCPrintField.m */,
+				1E0E5AE5207C4C6800222700 /* CCPrintModel.h */,
+				1E0E5AE3207C4C6800222700 /* CCPrintModel.m */,
+			);
+			path = PrintField;
+			sourceTree = "<group>";
+		};
+		1E0E5B09207C4C6900222700 /* PrintTask */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B2B207C4C6900222700 /* CCPrintTask.h */,
+				1E0E5B2A207C4C6900222700 /* CCPrintTask.m */,
+				1E0E5B2C207C4C6900222700 /* CCPrintTaskTest.h */,
+				1E0E5B29207C4C6900222700 /* CCPrintTaskTest.m */,
+				1E0E5B2D207C4C6900222700 /* CMPrintTask */,
+				1E0E5B0A207C4C6900222700 /* MMPrintTask */,
+			);
+			path = PrintTask;
+			sourceTree = "<group>";
+		};
+		1E0E5B0A207C4C6900222700 /* MMPrintTask */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B26207C4C6900222700 /* MMPrintTaskNormalLabel.h */,
+				1E0E5B15207C4C6900222700 /* MMPrintTaskNormalLabel.m */,
+				1E0E5B10207C4C6900222700 /* MMPrintTaskWaybill80.h */,
+				1E0E5B1F207C4C6900222700 /* MMPrintTaskWaybill80.m */,
+				1E0E5B1E207C4C6900222700 /* MMPrintTaskWayBill80Hor.h */,
+				1E0E5B11207C4C6900222700 /* MMPrintTaskWayBill80Hor.m */,
+			);
+			path = MMPrintTask;
+			sourceTree = "<group>";
+		};
+		1E0E5B2D207C4C6900222700 /* CMPrintTask */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B49207C4C6900222700 /* CMPrintTaskNormalLabel.h */,
+				1E0E5B38207C4C6900222700 /* CMPrintTaskNormalLabel.m */,
+				1E0E5B33207C4C6900222700 /* CMPrintTaskWayBill58.h */,
+				1E0E5B45207C4C6900222700 /* CMPrintTaskWayBill58.m */,
+				1E0E5B31207C4C6900222700 /* CMPrintTaskWayBill80.h */,
+				1E0E5B3E207C4C6900222700 /* CMPrintTaskWayBill80.m */,
+				1E0E5B3B207C4C6900222700 /* CMPrintTaskWayBill80Hor.h */,
+				1E0E5B4C207C4C6900222700 /* CMPrintTaskWayBill80Hor.m */,
+				1E0E5B39207C4C6900222700 /* CMPrintTaskCustomOrder.h */,
+				1E0E5B37207C4C6900222700 /* CMPrintTaskCustomOrder.mm */,
+			);
+			path = CMPrintTask;
+			sourceTree = "<group>";
+		};
+		1E0E5B57207C4C6900222700 /* Instruactions */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B5B207C4C6900222700 /* Base_Instruaction+Extra.h */,
+				1E0E5B59207C4C6900222700 /* Base_Instruaction.h */,
+				1E0E5B5F207C4C6900222700 /* Base_Instruaction.m */,
+				1E0E5B5E207C4C6900222700 /* ESC_Instruaction.h */,
+				1E0E5B5A207C4C6900222700 /* ESC_Instruaction.m */,
+				1E0E5B60207C4C6900222700 /* CPCL_Instruaction.h */,
+				1E0E5B58207C4C6900222700 /* CPCL_Instruaction.m */,
+				1E0E5B62207C4C6900222700 /* TSC_Instruaction.h */,
+				1E0E5B5D207C4C6900222700 /* TSC_Instruaction.m */,
+				1E0E5B61207C4C6900222700 /* ESCP_Instruaction.h */,
+				1E0E5B5C207C4C6900222700 /* ESCP_Instruaction.m */,
+			);
+			path = Instruactions;
+			sourceTree = "<group>";
+		};
+		1E0E5B63207C4C6900222700 /* CCPrinterConnect */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B65207C4C6900222700 /* CCPrinterConnectWiFiTools */,
+				1E0E5B77207C4C6900222700 /* CCPrinterConnectBluetoothTools */,
+				1E0E5B73207C4C6900222700 /* CCPeripheral.h */,
+				1E0E5B7F207C4C6900222700 /* CCPeripheral.m */,
+				1E0E5B80207C4C6900222700 /* CCPrinterConnectManager.h */,
+				1E0E5B75207C4C6900222700 /* CCPrinterConnectManager.m */,
+				1E0E5B72207C4C6900222700 /* CCPrinterBrandManager.h */,
+				1E0E5B7E207C4C6900222700 /* CCPrinterBrandManager.m */,
+				1E0E5B82207C4C6900222700 /* CCPrinterConnectListController.h */,
+				1E0E5B74207C4C6900222700 /* CCPrinterConnectListController.m */,
+				1E0E5B76207C4C6900222700 /* CCPrinterConnectListCell.h */,
+				1E0E5B64207C4C6900222700 /* CCPrinterConnectListCell.m */,
+			);
+			path = CCPrinterConnect;
+			sourceTree = "<group>";
+		};
+		1E0E5B65207C4C6900222700 /* CCPrinterConnectWiFiTools */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B6D207C4C6900222700 /* LanScanHeader */,
+				1E0E5B71207C4C6900222700 /* GCDAsyncSocket.h */,
+				1E0E5B68207C4C6900222700 /* GCDAsyncSocket.m */,
+				1E0E5B6B207C4C6900222700 /* GCDAsyncUdpSocket.h */,
+				1E0E5B66207C4C6900222700 /* GCDAsyncUdpSocket.m */,
+				1E0E5B6A207C4C6900222700 /* CCPrinterWiFiMacAddress.h */,
+				1E0E5B67207C4C6900222700 /* CCPrinterWiFiMacAddress.m */,
+				1E0E5B69207C4C6900222700 /* CCPrinterWiFiConnectManager.h */,
+				1E0E5B6C207C4C6900222700 /* CCPrinterWiFiConnectManager.m */,
+			);
+			path = CCPrinterConnectWiFiTools;
+			sourceTree = "<group>";
+		};
+		1E0E5B6D207C4C6900222700 /* LanScanHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B6E207C4C6900222700 /* route.h */,
+				1E0E5B6F207C4C6900222700 /* if_ether.h */,
+				1E0E5B70207C4C6900222700 /* if_arp.h */,
+			);
+			path = LanScanHeader;
+			sourceTree = "<group>";
+		};
+		1E0E5B77207C4C6900222700 /* CCPrinterConnectBluetoothTools */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5B7A207C4C6900222700 /* CCPrinterBluetoothConnectManager.h */,
+				1E0E5B7B207C4C6900222700 /* CCPrinterBluetoothConnectManager.m */,
+			);
+			path = CCPrinterConnectBluetoothTools;
+			sourceTree = "<group>";
+		};
+		1E0E5BCF207C517900222700 /* CCPrint_C++ */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5BD1207C517900222700 /* libMPrint.a */,
+				1E0E5BD6207C517900222700 /* process.h */,
+				1E0E5BD5207C517900222700 /* QYThermalSupport.h */,
+				1E0E5BD2207C517900222700 /* QYThermalSupport.m */,
+				1E0E5BD4207C517900222700 /* CCPrintBitmapTask.h */,
+				1E0E5BD0207C517900222700 /* CCPrintBitmapTask.m */,
+				1E0E5BD3207C517900222700 /* MMQRCode.h */,
+				1E0E5BD7207C517900222700 /* MMQRCode.m */,
+			);
+			path = "CCPrint_C++";
+			sourceTree = "<group>";
+		};
+		1E0E5BDC207C520300222700 /* CCModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5BDD207C520300222700 /* CCModelDefine.h */,
+				1E0E5BE4207C520300222700 /* CCModel.h */,
+				1E0E5BDF207C520300222700 /* CCModel.m */,
+				1E0E5BE0207C520300222700 /* CCDataAnalysis.h */,
+				1E0E5BE3207C520300222700 /* CCDataAnalysis.m */,
+				1E0E5BDE207C520300222700 /* NSObject+CCModelCheckType.m */,
+				1E0E5BE2207C520300222700 /* NSObject+CCModelCheckType.h */,
+				1E0E5BE1207C520300222700 /* CCModel.md */,
+			);
+			path = CCModel;
+			sourceTree = "<group>";
+		};
+		1E0E5C44207CB26D00222700 /* CCPrinterSettings */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5C4A207CB26D00222700 /* Controllers */,
+			);
+			path = CCPrinterSettings;
+			sourceTree = "<group>";
+		};
+		1E0E5C4A207CB26D00222700 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5C4F207CB26D00222700 /* CCPrinterConnectController.h */,
+				1E0E5C55207CB26D00222700 /* CCPrinterConnectController.m */,
+				1E0E5C54207CB26D00222700 /* CCprinterNameManagerController.h */,
+				1E0E5C4D207CB26D00222700 /* CCprinterNameManagerController.m */,
+				1E0E5C57207CB26D00222700 /* CCPrintAdvancedSettingController.h */,
+				1E0E5C51207CB26D00222700 /* CCPrintAdvancedSettingController.m */,
+				1E0E5C6D207CB7F600222700 /* CCPrintCustomPrinterController.h */,
+				1E0E5C6C207CB7F500222700 /* CCPrintCustomPrinterController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F396F8C3EE70C14900E6E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E5BF2207CA8F400222700 /* libiconv.2.4.0.tbd */,
+				221C61B5528476FFAAB07327 /* libPods-CCPrint.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DAC63E5589E6F034034351E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F95BF63BC8B7211C8418F6A /* Pods-CCPrint.debug.xcconfig */,
+				EC8956CBBFAFE8F278FB2217 /* Pods-CCPrint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +471,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E0E5AD8207C4BE600222700 /* Build configuration list for PBXNativeTarget "CCPrint" */;
 			buildPhases = (
+				BB8B206320DF6F2286BF6FA9 /* [CP] Check Pods Manifest.lock */,
 				1E0E5ABE207C4BE400222700 /* Sources */,
 				1E0E5ABF207C4BE400222700 /* Frameworks */,
 				1E0E5AC0207C4BE400222700 /* Resources */,
+				0D4E254660F0B9AED0928F22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0E5BE7207C520300222700 /* CCModel.md in Resources */,
 				1E0E5AD2207C4BE600222700 /* LaunchScreen.storyboard in Resources */,
 				1E0E5ACF207C4BE600222700 /* Assets.xcassets in Resources */,
 				1E0E5ACD207C4BE400222700 /* Main.storyboard in Resources */,
@@ -136,14 +532,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D4E254660F0B9AED0928F22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCPrint/Pods-CCPrint-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPrint/Pods-CCPrint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8B206320DF6F2286BF6FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCPrint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E0E5ABE207C4BE400222700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0E5BB8207C4C6900222700 /* CCPrintSingleTask.m in Sources */,
+				1E0E5B92207C4C6900222700 /* CCPrint+QYAdditions.m in Sources */,
+				1E0E5B9A207C4C6900222700 /* MMPrintTaskWayBill80Hor.m in Sources */,
+				1E0E5BC1207C4C6900222700 /* CCPrinterConnectListCell.m in Sources */,
+				1E0E5BBE207C4C6900222700 /* ESCP_Instruaction.m in Sources */,
+				1E0E5BB9207C4C6900222700 /* CCCompositeAttribute.m in Sources */,
+				1E0E5BBA207C4C6900222700 /* CCPrintUtilities.m in Sources */,
+				1E0E5BC2207C4C6900222700 /* GCDAsyncUdpSocket.m in Sources */,
+				1E0E5C6E207CB7F600222700 /* CCPrintCustomPrinterController.m in Sources */,
 				1E0E5ACA207C4BE400222700 /* ViewController.m in Sources */,
+				1E0E5BC4207C4C6900222700 /* GCDAsyncSocket.m in Sources */,
+				1E0E5BC3207C4C6900222700 /* CCPrinterWiFiMacAddress.m in Sources */,
+				1E0E5BCB207C4C6900222700 /* CCPrinterBrandManager.m in Sources */,
+				1E0E5B93207C4C6900222700 /* CCAttributeMaker.m in Sources */,
+				1E0E5BBB207C4C6900222700 /* CCPrintManager.m in Sources */,
+				1E0E5BAD207C4C6900222700 /* CMPrintTaskWayBill80.m in Sources */,
+				1E0E5B85207C4C6900222700 /* CCPrintModel.m in Sources */,
+				1E0E5BE6207C520300222700 /* CCModel.m in Sources */,
+				1E0E5B9C207C4C6900222700 /* MMPrintTaskNormalLabel.m in Sources */,
+				1E0E5BE5207C520300222700 /* NSObject+CCModelCheckType.m in Sources */,
+				1E0E5C62207CB26D00222700 /* CCprinterNameManagerController.m in Sources */,
+				1E0E5BD8207C517900222700 /* CCPrintBitmapTask.m in Sources */,
+				1E0E5BCC207C4C6900222700 /* CCPeripheral.m in Sources */,
+				1E0E5BBD207C4C6900222700 /* ESC_Instruaction.m in Sources */,
+				1E0E5BC6207C4C6900222700 /* CCPrinterConnectListController.m in Sources */,
+				1E0E5BB7207C4C6900222700 /* CMPrintTaskWayBill80Hor.m in Sources */,
+				1E0E5B96207C4C6900222700 /* CCPrint.m in Sources */,
+				1E0E5BDA207C517900222700 /* QYThermalSupport.m in Sources */,
+				1E0E5BC9207C4C6900222700 /* CCPrinterBluetoothConnectManager.m in Sources */,
 				1E0E5AD5207C4BE600222700 /* main.m in Sources */,
+				1E0E5BDB207C517900222700 /* MMQRCode.m in Sources */,
 				1E0E5AC7207C4BE400222700 /* AppDelegate.m in Sources */,
+				1E0E5BA6207C4C6900222700 /* CCPrintTaskTest.m in Sources */,
+				1E0E5C64207CB26D00222700 /* CCPrinterConnectController.m in Sources */,
+				1E0E5BCE207C4C6900222700 /* CCAttribute.m in Sources */,
+				1E0E5BC5207C4C6900222700 /* CCPrinterWiFiConnectManager.m in Sources */,
+				1E0E5BA7207C4C6900222700 /* CCPrintTask.m in Sources */,
+				1E0E5B94207C4C6900222700 /* CCPrintAttribute.m in Sources */,
+				1E0E5B86207C4C6900222700 /* CCPrintField.m in Sources */,
+				1E0E5C63207CB26D00222700 /* CCPrintAdvancedSettingController.m in Sources */,
+				1E0E5BA0207C4C6900222700 /* MMPrintTaskWaybill80.m in Sources */,
+				1E0E5BAA207C4C6900222700 /* CMPrintTaskCustomOrder.mm in Sources */,
+				1E0E5BC7207C4C6900222700 /* CCPrinterConnectManager.m in Sources */,
+				1E0E5BBF207C4C6900222700 /* TSC_Instruaction.m in Sources */,
+				1E0E5BC0207C4C6900222700 /* Base_Instruaction.m in Sources */,
+				1E0E5BB2207C4C6900222700 /* CMPrintTaskWayBill58.m in Sources */,
+				1E0E5BBC207C4C6900222700 /* CPCL_Instruaction.m in Sources */,
+				1E0E5BAB207C4C6900222700 /* CMPrintTaskNormalLabel.m in Sources */,
+				1E0E5BE8207C520300222700 /* CCDataAnalysis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,33 +762,52 @@
 		};
 		1E0E5AD9207C4BE600222700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F95BF63BC8B7211C8418F6A /* Pods-CCPrint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U27UCT3Q2J;
 				INFOPLIST_FILE = CCPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCPrint/CCPrint_C++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.CCPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c80ee564-f7dd-46ff-b44b-eb53b67072e1";
+				PROVISIONING_PROFILE_SPECIFIER = qianyeDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		1E0E5ADA207C4BE600222700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8956CBBFAFE8F278FB2217 /* Pods-CCPrint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CCPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCPrint/CCPrint_C++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.CCPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
